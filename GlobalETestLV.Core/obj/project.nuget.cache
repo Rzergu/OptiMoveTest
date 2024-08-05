@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KlF+9Mc3eos6upDq0XmIUSO5AscuWXsEMZuwgGraNWlsLdZUBg+YaWqOh1XJi/HbAbFCXBINwU/b0j/J40Y63A==",
+  "success": true,
+  "projectFilePath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Viacheslav.Leznovsky\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

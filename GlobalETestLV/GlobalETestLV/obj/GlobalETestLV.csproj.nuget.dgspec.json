@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV\\GlobalETestLV\\GlobalETestLV.csproj": {}
+  },
+  "projects": {
+    "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj",
+        "projectName": "GlobalETestLV.Core",
+        "projectPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav.Leznovsky\\.nuget\\packages\\",
+        "outputPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Viacheslav.Leznovsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj",
+        "projectName": "GlobalETestLV.Data",
+        "projectPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav.Leznovsky\\.nuget\\packages\\",
+        "outputPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Viacheslav.Leznovsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj": {
+                "projectPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AppAny.Quartz.EntityFrameworkCore.Migrations.PostgreSQL": {
+              "target": "Package",
+              "version": "[0.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Quartz.Jobs": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Quartz.Plugins": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV\\GlobalETestLV\\GlobalETestLV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV\\GlobalETestLV\\GlobalETestLV.csproj",
+        "projectName": "GlobalETestLV",
+        "projectPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV\\GlobalETestLV\\GlobalETestLV.csproj",
+        "packagesPath": "C:\\Users\\Viacheslav.Leznovsky\\.nuget\\packages\\",
+        "outputPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV\\GlobalETestLV\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Viacheslav.Leznovsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj": {
+                "projectPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Core\\GlobalETestLV.Core.csproj"
+              },
+              "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj": {
+                "projectPath": "C:\\Test\\SlavaTestGit\\OptiMoveTest\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AppAny.Quartz.EntityFrameworkCore.Migrations.PostgreSQL": {
+              "target": "Package",
+              "version": "[0.5.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Quartz.Serialization.Json": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

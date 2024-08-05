@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  clientapp:
+    image: ${DOCKER_REGISTRY-}angular
+    build:
+      context: ClientApp/angular-docker
+      dockerfile: ./Dockerfile
+    ports:
+       - 4201:4200
+  globaletestlv:
+    image: ${DOCKER_REGISTRY-}globaletestlv
+    build:
+      context: .
+      dockerfile: GlobalETestLV/Dockerfile
+    ports:
+      - 4300:80
+      - 4301:443
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: example
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

@@ -1,0 +1,70 @@
+<h2 class="table-caption">Filters:</h2>
+<div class="example-container mat-elevation-z8">
+    @if (isLoadingResults || isRateLimitReached) {
+      <div class="example-loading-shade">
+        @if (isLoadingResults) {
+          <mat-spinner></mat-spinner>
+        }
+      </div>
+    }
+
+    <div class="example-table-container">
+  
+      <table mat-table [dataSource]="data" class="example-table"
+             matSort matSortActive="created" matSortDisableClear matSortDirection="desc">
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef>#</th>
+          <td mat-cell *matCellDef="let row">{{row.id}}</td>
+        </ng-container>
+  
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef>Name</th>
+          <td mat-cell *matCellDef="let row">{{row.name}}</td>
+        </ng-container>
+  
+        <ng-container matColumnDef="genders">
+          <th mat-header-cell *matHeaderCellDef>Genders</th>
+          <td mat-cell *matCellDef="let row">{{row.genders}}</td>
+        </ng-container>
+  
+        <ng-container matColumnDef="cities">
+          <th mat-header-cell *matHeaderCellDef>Cities</th>
+          <td mat-cell *matCellDef="let row">{{row.cities}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="ageFrom">
+            <th mat-header-cell *matHeaderCellDef>ageFrom</th>
+            <td mat-cell *matCellDef="let row">{{row.ageFrom}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="ageTo">
+            <th mat-header-cell *matHeaderCellDef>ageTo</th>
+            <td mat-cell *matCellDef="let row">{{row.ageTo}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="depositFrom">
+          <th mat-header-cell *matHeaderCellDef>depositFrom</th>
+          <td mat-cell *matCellDef="let row">{{row.depositFrom}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="depositTo">
+            <th mat-header-cell *matHeaderCellDef>depositTo</th>
+            <td mat-cell *matCellDef="let row">{{row.depositTo}}</td>
+          </ng-container>
+    
+        <ng-container matColumnDef="isNew">
+          <th mat-header-cell *matHeaderCellDef>isNew</th>
+          <td mat-cell *matCellDef="let row">{{row.isNew}}</td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+        (click)="activeRow = row"
+        [class.demo-row-is-clicked]="row === activeRow"></tr>
+      </table>
+      <button class="dialog-btn" mat-raised-button (click)="openDialog()">Add new</button>
+    </div>
+
+    <mat-paginator [length]="resultsLength" [pageSize]="100"></mat-paginator>
+  </div>
+  <customers [filterId]="activeRow != null ? activeRow.id : null"></customers>
+  

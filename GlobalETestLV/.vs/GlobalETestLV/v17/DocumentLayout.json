@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SlavaTest\\GlobalETestLV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|d:\\slavatest\\globaletestlv\\globaletestlv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|solutionrelative:globaletestlv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232B33B9-D018-4AD9-BE8F-71DD5B7D4E71}|..\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj|d:\\slavatest\\globaletestlv.data\\contexts\\timercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232B33B9-D018-4AD9-BE8F-71DD5B7D4E71}|..\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj|d:\\slavatest\\globaletestlv.data\\contexts\\quartzcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232B33B9-D018-4AD9-BE8F-71DD5B7D4E71}|..\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj|d:\\slavatest\\globaletestlv.data\\contexts\\customercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{232B33B9-D018-4AD9-BE8F-71DD5B7D4E71}|..\\GlobalETestLV.Data\\GlobalETestLV.Data.csproj|d:\\slavatest\\globaletestlv.data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|d:\\slavatest\\globaletestlv\\globaletestlv\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|solutionrelative:globaletestlv\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|d:\\slavatest\\globaletestlv\\globaletestlv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|solutionrelative:globaletestlv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|d:\\slavatest\\globaletestlv\\globaletestlv\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B68937-D67F-43D2-8172-8C1AFEDB6077}|GlobalETestLV\\GlobalETestLV.csproj|solutionrelative:globaletestlv\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|docker-compose.dcproj|d:\\slavatest\\globaletestlv\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|docker-compose.dcproj|d:\\slavatest\\globaletestlv\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|docker-compose.dcproj|d:\\slavatest\\globaletestlv\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV.Data\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\GlobalETestLV.Data\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV.Data\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\GlobalETestLV.Data\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:15:10.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-03T13:04:14.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\Dockerfile",
+              "RelativeDocumentMoniker": "GlobalETestLV\\Dockerfile",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\Dockerfile",
+              "RelativeToolTip": "GlobalETestLV\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-03T12:50:00.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimerContext.cs",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV.Data\\Contexts\\TimerContext.cs",
+              "RelativeDocumentMoniker": "..\\GlobalETestLV.Data\\Contexts\\TimerContext.cs",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV.Data\\Contexts\\TimerContext.cs",
+              "RelativeToolTip": "..\\GlobalETestLV.Data\\Contexts\\TimerContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:47:11.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuartzContext.cs",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV.Data\\Contexts\\QuartzContext.cs",
+              "RelativeDocumentMoniker": "..\\GlobalETestLV.Data\\Contexts\\QuartzContext.cs",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV.Data\\Contexts\\QuartzContext.cs",
+              "RelativeToolTip": "..\\GlobalETestLV.Data\\Contexts\\QuartzContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:47:05.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\Program.cs",
+              "RelativeDocumentMoniker": "GlobalETestLV\\Program.cs",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\Program.cs",
+              "RelativeToolTip": "GlobalETestLV\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:45:10.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerContext.cs",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV.Data\\Contexts\\CustomerContext.cs",
+              "RelativeDocumentMoniker": "..\\GlobalETestLV.Data\\Contexts\\CustomerContext.cs",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV.Data\\Contexts\\CustomerContext.cs",
+              "RelativeToolTip": "..\\GlobalETestLV.Data\\Contexts\\CustomerContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:43:54.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\appsettings.json",
+              "RelativeDocumentMoniker": "GlobalETestLV\\appsettings.json",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\appsettings.json",
+              "RelativeToolTip": "GlobalETestLV\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T12:43:13.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "GlobalETestLV\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\GlobalETestLV\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "GlobalETestLV\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:41:37.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-08-03T12:29:40.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "D:\\SlavaTest\\GlobalETestLV\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "D:\\SlavaTest\\GlobalETestLV\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-03T12:29:39.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

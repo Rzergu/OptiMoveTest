@@ -1,0 +1,13 @@
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\bin\Release\net7.0\GlobalETestLV.Core.deps.json
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\bin\Release\net7.0\GlobalETestLV.Core.dll
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\bin\Release\net7.0\GlobalETestLV.Core.pdb
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.csproj.AssemblyReference.cache
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.AssemblyInfoInputs.cache
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.AssemblyInfo.cs
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.csproj.CoreCompileInputs.cache
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.sourcelink.json
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.dll
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\refint\GlobalETestLV.Core.dll
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\GlobalETestLV.Core.pdb
+C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV.Core\obj\Release\net7.0\ref\GlobalETestLV.Core.dll

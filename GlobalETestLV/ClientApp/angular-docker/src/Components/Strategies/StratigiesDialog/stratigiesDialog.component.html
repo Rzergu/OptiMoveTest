@@ -1,0 +1,27 @@
+<h2 mat-dialog-title>Create new strategy</h2>
+<mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Filter (id from bottom table):</mat-label>
+    <input matInput type="number" [(ngModel)]="data.filterId" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Time (UTC!):</mat-label>
+    <input matInput class="timepicker" [ngxTimepicker]="pickerTwo" [format]=24 placeholder="time" [(ngModel)]="data.time">
+    <ngx-material-timepicker 
+        #pickerTwo
+        [enableKeyboardInput]=true>
+    </ngx-material-timepicker>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Template Id(1 or 2 or 3):</mat-label>
+    <input matInput type="number" [(ngModel)]="data.templateId" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Priority:</mat-label>
+    <input matInput type="number" [(ngModel)]="data.priority" />
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Save</button>
+</mat-dialog-actions>

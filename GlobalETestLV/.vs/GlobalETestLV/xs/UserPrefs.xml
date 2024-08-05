@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{EA5C65D6-7086-459E-B8D2-68DD34C2B1BC}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSBuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets">
+    <Files>
+      <File FileName="GlobalETestLV/Program.cs" Line="26" Column="52" />
+      <File FileName="GlobalETestLV/GlobalETestLV.http" Line="3" Column="40" />
+      <File FileName="GlobalETestLV/Properties/launchSettings.json" Line="35" Column="26" />
+      <File FileName="GlobalETestLV/Dockerfile" Line="7" Column="47" />
+      <File FileName="docker-compose.yml" Line="8" Column="19" />
+      <File FileName="GlobalETestLV/appsettings.json" Line="3" Column="103" />
+      <File FileName="GlobalETestLV/appsettings.Development.json" />
+      <File FileName="../GlobalETestLV.Data/Repositories/TimersRepositories.cs" Line="19" Column="20" />
+      <File FileName="../GlobalETestLV.Data/Contexts/TimerContext.cs" Line="14" Column="10" />
+      <File FileName="../GlobalETestLV.Data/GlobalETestLV.Data.csproj" />
+      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+      <File FileName="docker-compose.dcproj" />
+      <File FileName="../GlobalETestLV.Core/Interfaces/ITimerItemRepository.cs" Line="8" Column="39" />
+      <File FileName="GlobalETestLV/Controllers/TimerController.cs" Line="1" Column="1" />
+      <File FileName=".dockerignore" Line="1" Column="1" />
+      <File FileName="../GlobalETestLV.Core/Entities/TimerItem.cs" Line="14" Column="1" />
+      <File FileName="../GlobalETestLV.Core/Entities/TemplateType.cs" Line="8" Column="12" />
+      <File FileName="../GlobalETestLV.Core/Entities/Customer.cs" Line="4" Column="15" />
+      <File FileName="../GlobalETestLV.Data/Contexts/CustomerContext.cs" Line="14" Column="10" />
+      <File FileName="../GlobalETestLV.Data/Contexts/QuartzContext.cs" Line="15" Column="1" />
+      <File FileName="GlobalETestLV/Controllers/CustomersController.cs" Line="25" Column="2" />
+      <File FileName="../GlobalETestLV.Core/Interfaces/ICustomersRepository.cs" Line="8" Column="33" />
+      <File FileName="../GlobalETestLV.Data/Repositories/CustomerRepository.cs" Line="17" Column="64" />
+      <File FileName="GlobalETestLV/Migrations/Customer/20240803070611_AddQuartz.cs" Line="72" Column="26" />
+      <File FileName="../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="340" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GlobalETestLV" expanded="True">
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" selected="True" />
+            </Node>
+            <Node name="GlobalETestLV" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="Customer" expanded="True" />
+                <Node name="Quartz" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="GlobalETestLV.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+            <Node name="GlobalETestLV.Data" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Contexts" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

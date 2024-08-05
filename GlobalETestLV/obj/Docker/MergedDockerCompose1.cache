@@ -1,0 +1,77 @@
+name: dockercompose2735154916907453258
+services:
+  adminer:
+    image: adminer
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+    restart: always
+  clientapp:
+    build:
+      context: C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV\ClientApp\angular-docker
+      dockerfile: ./Dockerfile
+    image: angular
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 4200
+        published: "4201"
+        protocol: tcp
+  db:
+    environment:
+      POSTGRES_PASSWORD: example
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+  globaletestlv:
+    build:
+      context: C:\Test\SlavaTestGit\OptiMoveTest\GlobalETestLV
+      dockerfile: GlobalETestLV/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: globaletestlv
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "4300"
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        published: "4301"
+        protocol: tcp
+      - mode: ingress
+        target: 80
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Viacheslav.Leznovsky\.aspnet\https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Viacheslav.Leznovsky\.microsoft\usersecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose2735154916907453258_default

@@ -1,0 +1,39 @@
+<h2 mat-dialog-title>Create new filter</h2>
+<mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Name:</mat-label>
+    <input matInput [(ngModel)]="data.name" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Genders (use comma , for an list):</mat-label>
+    <input matInput [(ngModel)]="data.genders" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Cities (use comma , for an list):</mat-label>
+    <input matInput [(ngModel)]="data.cities" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Age From:</mat-label>
+    <input matInput type="number" [(ngModel)]="data.ageFrom" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Age To:</mat-label>
+    <input matInput type="number" [(ngModel)]="data.ageTo" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Diposit From:</mat-label>
+    <input matInput type="number" [(ngModel)]="data.depositFrom" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Deposit To:</mat-label>
+    <input matInput type="number" [(ngModel)]="data.depositTo" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Only New (true or false):</mat-label>
+    <input matInput [(ngModel)]="data.isNew" />
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Save</button>
+</mat-dialog-actions>

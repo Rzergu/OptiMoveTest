@@ -1,0 +1,7 @@
+﻿@GlobalETestLV_HostAddress = http://localhost:5130
+
+GET {{GlobalETestLV_HostAddress}}/timer/
+Accept: application/json
+
+###
+
